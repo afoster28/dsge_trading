@@ -1,0 +1,10 @@
+fredapi==0.5.1
+jupyter_client==8.2.0
+jupyter_core==5.3.0
+jupyterlab-pygments==0.2.2
+matplotlib==3.8.0
+notebook==6.5.4
+numpy==1.24.3
+pandas==2.0.1
+pandas_datareader==0.10.0
+yfinance==0.2.31
