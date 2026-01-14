@@ -10,7 +10,7 @@ This repo contains a novel systematic trading strategy setup that employs DSGE m
 
 ## Tech
 
-The models are coded in Python.
+The model has been coded using Python.
 
 ### Running the Code
 
@@ -21,3 +21,11 @@ Please make sure you have all usual dependencies installed on your system. The m
 3. Upgrade your `pip`: `pip install --upgrade pip`
 4. Install dependencies from the requirements file: `pip install -r requirements.txt`
 5. Navigate to the Model directory and open the Jupyter Notebook IDE of your choice. Select the Python version from inside the `venv` you just created when prompted by `ipykernel` package. Suggested command: `python -m notebook`
+
+## Miscellaneous
+See prior project attempt in [cmd_forecast](https://github.com/afoster28/cmd_forecast) repo.
+
+## To do:
+- Relate forecasted economic variables with observed variables
+- Make periods dynamic to allow for implementation in systematic trading infrastructure
+- Embed DSGE model in systematic trading infrastructure and check initial performance
