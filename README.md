@@ -16,11 +16,11 @@ There is relatively low dependence on data, making this approach quick to implem
 
 In practice, an RBC model is constructed as a starting point for modelling the US economy. It undergoes the usual interaction between capital, labour and other variables. Responses of macroeconomic variables are dictated by productivity shocks whose underlying series follows an AR(1) process.
 
-The model with its key parameters is calibrated as per the literature with the exception of productivity whose persistence and standard deviation are estimated. After all, changing productivity will be key both to model results and deviation from realised macroeconomic time series.
+The model with its key parameters is calibrated as per the literature with the exception of productivity whose persistence and standard deviation are estimated. After all, changing productivity will be key both to dated model results and measuring deviation from realised macroeconomic time series.
 
-The estimation is updated per observation in the test period and impulse response functions (IRF) are produced using this data. The next-period forecast from the penultimate period is compared with realised variable values from the ultimate period: any overperformance or underperformance of the economy for the estimated quantity of productivity shock is then interpreted as a signal to go long and short or vice-versa in a related asset, for example a broad stock market index.
+The estimation is updated per observation and impulse response functions (IRFs) are produced using this data. The next-period forecast of output response from the penultimate period is compared with realised output values from the ultimate period: any overperformance or underperformance of the economy for the estimated quantity of productivity shock is then interpreted as a signal to go long or short or vice-versa in a related asset, for example a broad stock market index. The assumption is the expected incremental output will be delivered in the near future and eventually reflected in asset performance.
 
-This constitutes a novel framework for systematic low frequency trading of macro assets backed by economic theory and data. The approach would be malleable in the sense that various DSGE models can, in principal, be used to model a particular economy, plus the resulting signal can be used as either a momentum or mean-reversion trade.
+This constitutes a novel framework for systematic low frequency trading of macro assets backed by economic theory and data. The approach is malleable in the sense that various DSGE models can, in principal, be used to model a particular economy, plus the resulting signal can be used as either a momentum or mean-reversion trade. Performance is measured using Sharpe ratio and others.
 
 ## Tech
 
