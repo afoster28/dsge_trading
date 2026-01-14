@@ -1,16 +1,16 @@
 # dsge_trading
 
-## DSBE Models in Systematic Trading Strategies
+## DSGE Models in Systematic Trading Strategies
 
 Author: Adam Foster
 
 Supervisor: Marcin Chlebus
 
-This repo contains a low frequency systematic trading strategy setup that uses DSGE models for trading signals.
+This repo contains a novel systematic trading strategy setup that employs DSGE models for generating trading signals. DSGE model forecasts relative to observed macroeconomic variables provide the foundation for determining low frequency systematic trading decisions. This framework stands as a candidate investment strategy that could stand the test of time with its grounding in economic theory unlike its high frequency alternatives that typically exploit short-term structural inefficiency. It also serves as a challenge to established strategies, such as buy-and-hold or other long-term macro strategies. There is relatively low dependence on data, making this approach quick to implement without major barriers to entry.
 
 ## Tech
 
-The models will be coded in Python.
+The models are coded in Python.
 
 ### Running the Code
 
