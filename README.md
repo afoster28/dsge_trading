@@ -6,7 +6,11 @@ Author: Adam Foster
 
 Supervisor: Marcin Chlebus
 
-This repo contains a novel systematic trading strategy setup that employs DSGE models for generating trading signals. DSGE model forecasts relative to observed macroeconomic variables provide the foundation for determining low frequency systematic trading decisions. This framework stands as a candidate investment strategy that could stand the test of time with its grounding in economic theory unlike its high frequency alternatives that typically exploit short-term structural inefficiency. It also serves as a challenge to established strategies, such as buy-and-hold or other long-term macro strategies. There is relatively low dependence on data, making this approach quick to implement without major barriers to entry.
+This repo contains a novel systematic trading strategy setup that employs DSGE models for generating trading signals. There may exist deviations between model-implied IRF forecasts and realised macro outcomes that contain exploitable information for asset returns. Thus placing such model results relative to observed macroeconomic variables can provide the foundation for determining low frequency systematic trading decisions.
+
+This framework stands as a candidate investment strategy that could stand the test of time with its grounding in economic theory unlike its high frequency alternatives that typically exploit short-term structural inefficiency or microstructure noise. It also serves as a challenge to established strategies, such as buy-and-hold or other long-term macro strategies.
+
+There is relatively low dependence on data, making this approach quick to implement without major barriers to entry.
 
 ## Tech
 
