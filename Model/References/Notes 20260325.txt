@@ -1,0 +1,62 @@
+PLAN/STATUS SUMMARY:
+
+approach:
+1. data selection: single call for entire range of data
+productivity (quarterly)
+GDP (quarterly)
+S&P 500 (daily)
+Dow Jones (daily)
+US holiday calendar
+
+2. model
+RBC model which forecasts economic variables based on stochastic shocks, i.e. productivity
+forecast as of prior quarter
+relies on horizon of data
+variables: persistence of productivity, productivity shock in the last quarter
+
+realised data is HP-filtered to extract cyclical component
+current quarter of this realised data
+relies on horizon of data
+variables: realised GDP
+
+runs quarter by quarter on selected windows; optimised to avoid repeating operations
+positioning
+
+3. pnl
+momentum and mean reversion
+features: 2x leverage, doubling down when repeated signal
+metrics: pnl, sharpe
+
+
+novelty:
+using macroeconomic modelling for trading
+systematic execution of forecast, realised value, positioning, exit, pnl reporting, leverage
+baseline infrastructure for other DSGE models, asset selection, leverage
+inference of RBC model performance
+
+stability:
+results verification:
+IRF behaviour
+explanation of a particular position being generated
+economic intuition per selected window
+DSGE solution being calculated
+comparison with buy-and-hold
+comparison with variations of the model
+
+reproducibility:
+venv with listed dependencies
+deterministic nature of RBC model
+application of model to historical windows
+
+
+NOTES:
+
+PART 1 to send:
+intro: main problem, why relevant
+lit review: what is the status of the literature regarding what we're researching, macroeconomic, trading strategy application
+research question/hypothesis
+aim & scope
+material & method: what data, what are we trying to do, no results yet
+
+PART 2 to send later:
+results: empirical results, strategy results
