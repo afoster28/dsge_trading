@@ -38,8 +38,3 @@ Please make sure you have all usual dependencies installed on your system. The m
 
 ## Miscellaneous
 See prior project attempt in [cmd_forecast](https://github.com/afoster28/cmd_forecast) repo.
-
-## To do
-- Relate forecasted economic variables with observed variables
-- Make periods dynamic to allow for implementation in systematic trading infrastructure
-- Embed DSGE model in systematic trading infrastructure and check initial performance
