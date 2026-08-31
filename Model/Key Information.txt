@@ -1,0 +1,25 @@
+Title:
+DSGE Models in Systematic Trading Strategies
+Modele DSGE w zastosowaniu w systematycznych strategiach tradingowych
+
+Summary:
+The objective of the thesis is to lay the foundation of a new type of low-frequency systematic trading strategy based on DSGE modelling. These two areas have long been explored separately. The new framework includes preparing and running DSGE models, comparing forecasts with equivalent realised values for signal generation and trading associated financial assets systematically. The framework is run on US equity indices and produces healthy performance. It also provides insights into the link between macroeconomic forecasts and financial assets.
+
+Abstract:
+Systematic trading strategies have been researched extensively, capturing tradable patterns in data that are grounded in economic theory and increasingly focus on statistical properties. DSGE models have evolved separately in the field of macroeconomics and provide an effective way of depicting interactions between economic agents with the ability to forecast macroeconomic variables following stochastic shocks. The two areas of study have been explored separately and have had different applications. This has provided an opportunity to test whether there exists value in using DSGE modelling for systematic trading. A basic RBC model is set up and used to generate output forecasts that are compared with realised output data in a novel low-frequency signal creation framework. US equity index assets are traded in this strategy. Results show modest yet healthy performance. Some strategy variants fail to beat the buy-and-hold benchmark, whilst others exceed it and offer insights regarding strategy setup for optimal performance. The exercise proves that DSGE model forecasts and associated equilibrium dynamics offer insights beyond realised data that can be profitably traded in the equities asset class over the long run.
+
+Systematyczne strategie inwestycyjne doczekały się obszernej literatury naukowej. Strategie próbują wychwycić zależności w danych opartych na teorii makroekonomicznej, a coraz częściej wykorzystując metody statystyczne. Równolegle w obrębie makroekonomii rozwijały się modele DSGE, które opisują interakcje między podmiotami gospodarki i pozwalają prognozować zmienne makroekonomiczne podlegające pod wstrząsy stochastyczne. Oba te nurty badawcze rozwijały się jednak niezależnie od siebie i znajdowały odmienne zastosowania. Pozostawione do przetestowania zatem zostało ich połączenie i zbadanie czy modele DSGE są w stanie dodać wartość w świecie systematycznego tradingu. W tym celu zbudowano podstawowy model RBC, wygenerowano prognozy produktu krajowego i porównano z danymi rzeczywistymi w nowym podejściu tworzenia sygnałów tradingowych o niskiej częstotliwości. Strategia handluje amerykańskimi indeksami akcyjnymi i osiąga wyniki skromne, lecz stabilne. Niektóre warianty strategii nie pokonują strategii porównawczej buy-and-hold, natomiast inne ją przewyższają, wskazując jak najlepiej skonfigurować strategię, aby uzyskać optymalne wyniki. Analiza dowodzi, że prognozy modeli DSGE oraz zakorzenione w nich relacje między jednostkami gospodarki posiadają informacje wykraczające poza dane historyczne i na podstawie których można długoterminowo handlować akcjami.
+
+Keywords:
+DSGE, systematic, trading, strategy, momentum, mean-reversion
+(DSGE, systematyczna, strategia, trading, momentum, mean-reversion)
+
+
+Field of work:
+Economics (14300)
+
+
+File name:
+2400-MGR-QF-96070409632.pdf
+Dodano załącznik "2400-MGR-QF-437278-praca.pdf" do zestawu 1
+
